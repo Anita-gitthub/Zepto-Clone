@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapto clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <div class="logo">
+                <i class="fa-solid fa-z fa-2xl" style="color: #8b6fdf;"></i>
+                </div>
+            </div>
+            <div class="deal">
+                <i class="fa-solid fa-circle fa-2xl" style="color: #f2f2f2;"></i>
+               <div class="saver"> 
+                <p>SUPER</p>
+                <P>SAVER</P>
+               </div> 
+            </div>
+            <div class="nav-loc">
+                <select>
+                    <option> Select Location</option>
+                </select>
+            </div>
+
+            <div class="nav-search">
+                <div class="Search-icon">
+                    <i class="fa-solid fa-magnifying-glass fa-xl" style="color: #414e62;"></i>
+                </div>
+              <input placeholder="search for" class="search-input">
+           </div>
+
+           <div class=" nav-login-icon">
+            <i class="fa-solid fa-circle-user fa-xl"></i>
+                <p>login</p>
+           </div>
+           <div class=" nav-cart">
+            <i class="fa-solid fa-cart-shopping fa-xl"></i>
+            <p>cart</p>
+           </div>
+        </div>
+
+        <!-- PANEL -->
+        <div Class="panel">
+            <!-- I write the ul tag because when i apply margin-left in css
+             so  the image and its name not do not get enough space  -->
+             <!-- I also added  an li tag means I have more tags so I can center it in center of the panel image -->
+           <ul>
+             <li>
+              <i class="fa-solid fa-store"></i>
+             </li>
+             <a>All</a>
+           </ul>
+           <ul>
+             <li>
+                <i class="fa-solid fa-prescription-bottle"></i>
+             <li>
+                <a>Cafe</a>
+           </ul>
+           <ul>
+             <li>
+                <i class="fa-solid fa-spoon"></i>
+              </li>
+              <a>Home</a>
+           </ul>
+           <ul>
+             <li>
+                <i class="fa-solid fa-car-side"></i>
+              </li> 
+              <a>Toy</a>
+            </ul>
+            <ul>
+             <li>
+             <i class="fa-solid fa-apple-whole"></i>
+              </li>
+              <a>Fresh</a>
+            </ul>
+            <ul>
+             <li>
+                <i class="fa-solid fa-headphones"></i>
+             </li>
+             <a>Electronics</a>
+            </ul>
+            <ul>
+             <li>
+             <i class="fa-solid fa-mobile-screen"></i>
+             </li>
+             <a>Mobiles</a>
+            </ul>
+            <ul>
+             <li>
+             <i class="fa-solid fa-palette"></i>
+             </li><a>Beauty</a>
+            </ul>
+            <ul>
+             <li>
+                <i class="fa-solid fa-shirt"></i>
+             </li>
+             <a>Fashion</a>
+            </ul>
+            <ul>
+             <li>
+                <i class="fa-solid fa-battery-empty"></i>
+             </li> 
+              <a>Deal Zone</a>
+            </ul>
+            <ul>
+             <li>
+               <i class="fa-solid fa-bottle-water"></i>
+             </li>
+             <a>Baby Store</a>
+            </ul>
+        </div>
+    </header>
+    
+
+    <div class="hero-section">
+        <div class="shop-section">
+         <!-- whSen i want to add different images in one box so i give those images a class name same -->
+          <!-- make div of class box to create box inside shop section -->
+          <div class="box">
+             <!-- make div of class box item to create  -->
+             <div class="box-item">
+                  <div class="box-img" style="background-image:url('IMAGES/basket-img.jpg')"></div>
+                  <p>Fruit & Vegetable</p>
+             </div>
+          </div>
+          <div class="box">
+             <div class="box-item">
+                 <div class="box-img"style="background-image:url('IMAGES/baby-product.jpg')"></div>
+                 <p>Baby Product</p>
+             </div>
+          </div>
+          <div class="box">
+             <div class="box-item">
+                 <div class="box-img"style="background-image:url('IMAGES/cold-drink-img.jpg')"></div>
+                 <p>Cold Drink</p>
+             </div>
+          </div>
+         <div class="box">
+             <div class="box-item">
+                 <div class="box-img"style="background-image:url('IMAGES/jewellery.jpg')"></div>
+                 <p>jewellery</p>
+             </div>
+          </div>
+          <div class="'box">
+             <div class="box-item">
+                 <div class="box-img"style="background-image:url('IMAGES/skin-care.jpg')"></div>
+                 <p>Skin Care</p>
+             </div>
+          </div>
+          <div class="box">
+             <div class="box-item">
+                 <div class="box-img"style="background-image:url('IMAGES/tea-coffee.jpg')"></div>
+                 <p>Tea Coffee</p>
+             </div>
+          </div>
+          <div class="box">
+             <div class="box-item">
+                 <div class="box-img"style="background-image:url('IMAGES/makup-product.jpg')"></div>
+                 <p>Makeup Product</p>
+             </div>
+          </div>
+          <div class="box">
+             <div class="box-item">
+                 <div class ="box-img" style="background-image:url('IMAGES/smoking accessories.jpg')"></div>
+                 <p>Smoking accessories</p>
+              </div>
+          </div>
+        </div>
+        <div class="hero-img" style="background-image:url('IMAGES/hero-img.jpg')"></div>
+        <div class="offers">
+         <div class="offer-img" style="background-image:url('IMAGES/makeup-product.jpg')"></div>
+         <div class="offer-img" style="background-image:url('IMAGES/offer-in-watch.jpg')"></div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-section1">
+         <!-- I give both 'p' a class because i want them to have different style--> 
+         <!-- Inside a'p' i want the "zepto team" text to have a different style so I've added a span tag for this -->
+         <p class="footer-slogen">The place that fits all your needs</p>
+         <p class="footer-credit">crafted with love from <span>Zepto Team</span></p>
+      </div>
+      <div class="footer-section2">
+         <ul>
+             <a>Home</a>
+             <a>Delivery Areas</a>
+             <a>Careers</a>
+             <a>Customer Support</a>
+             <a>press</a>
+         </ul>
+         <ul>
+             <a>Privacy Policy</a>
+             <a>Terms of Use</a>
+             <a>Responsible
+                Disclosure Policy
+             </a>
+             <a>Mojo-a Zepto Blog</a>
+             <a>Sell on Zepto</a>
+             <a>Deliver with Zepto</a>
+         </ul>
+      </div>
+    </footer>
+</body>
+</html>

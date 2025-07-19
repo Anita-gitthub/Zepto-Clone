@@ -1,0 +1,164 @@
+*{
+    padding:0;
+    margin:0;
+    font-style:arial;
+    border:border-box;
+}
+.navbar{
+ background-color:rgb(218, 206, 230);
+ height:60px;
+ width:100%;
+ display:flex;
+ justify-content:space-evenly; 
+ align-items:center;
+}
+/* BOX 1 */
+.nav-logo{
+    height:15px;
+}
+.logo{
+    font-style:bold;
+    height:10px;
+    width:10px;
+}
+/* BOX 2 */
+.deal{
+    background-color:rgb(196, 193, 215);
+    width:200px;
+    border-radius:40%;
+    align-items:center;
+    display:flex;
+}
+.saver{
+    font-style:bold;
+    font-size:1.2rem;
+    color:white;
+    flex-wrap:wrap;
+    margin-left:17px;
+}
+/* BOX 3 */
+.nav-loc{
+    margin-top:15px;
+    font-size:1.1rem;
+    border:cover;
+}
+/* BOX 4 */
+.nav-search{
+    height:30px;
+    width:700px;
+    background-color:white;
+    display:flex;
+    border-radius:4px;
+}
+.search-input{
+    font-size:1.2rem;
+    height:25px;
+    width:200px;
+    margin-left:4px;
+}
+
+/* BOX 5,6 */
+p{
+margin-top:5px;
+}
+
+/* PANEL */
+.panel{
+    background-color:white;
+    border:gray;
+    display:flex;
+    margin-top:15px;
+    height:48px;
+}
+/* To style panel image */
+.panel ul li {
+    text-align: center;
+    /* I write the line below because a black dot appears with the image to remove that dot */
+    list-style:none;
+}
+/* To style panel words */
+.panel ul a{
+    display:flex;
+    margin-top:10px;
+    margin-left:10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.hero-section{
+    height:auto;
+    width:auto;
+}
+.shop-section{
+    border:1px solid black;
+    justify-content:space-evenly;
+    display:flex;
+}
+.box-item{
+    height:190px;
+    width:190px;
+}
+.box-img{
+    height:150px;
+    width:150px;
+    /* By adding background-size:cover entire image will fit within the specified height and width or this ensures
+    that  the img inside this div will cover area by cropping if neccessary but not distoring */
+    background-size:cover;
+}
+.hero-img{
+    width:100%;
+    height:250px;
+    background-size:cover;
+}
+.offers{
+    margin:10px;
+    display:flex;
+    justify-content:space-evenly;
+}
+.offer-img{
+    background-size:cover;
+    height:250px;
+    width:550px;
+    border:0.8px solid black;
+     border-radius:5%;
+}
+/* FOOTER */
+.footer-section1{
+    border-top:2px solid black;;
+    margin:20px;
+    background-color:#f8f8f8;
+    margin-bottom:35px;
+}
+.footer-slogen{
+    margin:20px;
+    font-weight:bold;
+    font-size:40px;
+    font-family:arial,sans-serif;
+    color:rgb(129, 129, 180);
+    /* color:#5e5e5e; */
+    line-height:1.5;
+}
+.footer-credit{
+    text-align:center;
+    font-size:bold;
+    font-size:20px;
+}
+.footer-credit span{
+    color:rgb(121, 5, 121);
+    font-size:bold;
+    text-decoration:underline;
+    font-size:25px;
+}
+.footer-section2{
+    font-size:bold;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    margin-bottom:80px;
+}
+.footer-section2 ul a{
+    font-size:20px;
+    /* display block make vertical  */
+    display:block;
+    /* By adding margin top so get space  */
+    margin-top:10px;
+}
+
